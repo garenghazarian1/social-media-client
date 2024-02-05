@@ -1,4 +1,4 @@
 
-export const baseUrl = process.env.NODE_ENV ===   "production" ? 'http://localhost:5000': 'http://localhost:4000';
+export const baseUrl = process.env.NODE_ENV ===   "production" ? 'https://social-media-server-vc8m.vercel.app': 'http://localhost:4000';
 console.log("baseUrl", baseUrl);
 
