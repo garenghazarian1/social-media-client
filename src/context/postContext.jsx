@@ -64,7 +64,7 @@ const handleDate = (e)=>{setDate(e.target.value)}
    // console.log("response1", response)
 //, {headers: {'Content-Type': 'multipart/form-data'}}
       if (response.data.success) {
-        setPosts(prevPosts => [...prevPosts, response.data.post]);
+        setPosts(prevPosts => [response.data.post, ...prevPosts ]);
       }
 
       // Clearing the form fields after successful submission
