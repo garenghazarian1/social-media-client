@@ -13,7 +13,7 @@ export default function Routers() {
             <Navbar />
             <Routes>
                 <Route path="/" index element={<Home />} />
-                <Route path="/add" index element={<PostForm />} />
+                <Route path="/add"  element={<PostForm />} />
                 <Route path="/register" element={<Register />} />
                 <Route path="/login" element={<Login />} />
                 <Route path="/contact" element={<Contact />} />
